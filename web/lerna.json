@@ -1,0 +1,9 @@
+{
+  "packages": [
+    "packages/components/*",
+    "packages/themes/*",
+    "packages/micro-frontends/*",
+    "packages/portfolios/*"
+  ],
+  "version": "0.0.0"
+}

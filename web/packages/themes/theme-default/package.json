@@ -1,0 +1,27 @@
+{
+  "name": "@simple/theme-default",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xdeepakv <deepak.m.shrma@gmail.com>",
+  "homepage": "https://github.com/deepakshrma/micro-frontends#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakshrma/micro-frontends.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/deepakshrma/micro-frontends/issues"
+  }
+}

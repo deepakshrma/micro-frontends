@@ -1,0 +1,42 @@
+{
+  "name": "@simple/buttons",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xdeepakv <deepak.m.shrma@gmail.com>",
+  "homepage": "https://github.com/deepakshrma/micro-frontends#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakshrma/micro-frontends.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/deepakshrma/micro-frontends/issues"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@simple/theme-default": "*",
+    "@types/styled-components": "^4.1.14",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  }
+}
