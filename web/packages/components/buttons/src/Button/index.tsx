@@ -4,6 +4,7 @@ import theme from '@simple/theme-default';
 console.log(theme)
 interface ButtonProps {
     primary?: boolean;
+    children: any;
 }
 const Button = styled.button`
 background-color: ${theme().primary};
